@@ -69,7 +69,8 @@ session_start();
         $_GET['ruta'] == "salir" ||
         $_GET['ruta'] == "historia" ||
         $_GET['ruta'] == "notas" ||
-        $_GET['ruta'] == "novedades"
+        $_GET['ruta'] == "novedades" ||
+        $_GET['ruta'] == "editar"
       ) {
         include "paginas/" . $_GET["ruta"] .".php";
       } else {
